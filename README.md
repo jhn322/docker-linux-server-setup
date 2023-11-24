@@ -1,4 +1,4 @@
-# Linux & Docker server setup
+# Linux server with Docker setup
 Here I'll specify all the docker containers that is currently running on my home server at the moment. I will be providing the docker-compose files as a good starting point for anyone interested in creating their own docker stack, but do head over to the independant docker hubs to pull down the entire repo/image to your server. 
 
 More information: https://hub.docker.com/
