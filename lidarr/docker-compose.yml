@@ -1,0 +1,18 @@
+---
+version: "2.1"
+services:
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+    volumes:
+      - ./config:/config
+      - /home/jhn/Media Addons/Music:/flacmusic
+      - /home/jhn/Media Addons/Soundtracks:/flacsoundtrack
+      - /home/jhn/Downloads:/downloads
+    ports:
+      - 8686:8686
+    restart: unless-stopped

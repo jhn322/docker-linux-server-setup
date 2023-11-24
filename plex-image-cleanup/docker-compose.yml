@@ -1,0 +1,11 @@
+version: "2.1"
+services:
+  plex-image-cleanup:
+    image: meisnate12/plex-image-cleanup
+    container_name: plex-image-cleanup
+    environment:
+      - TZ=Europe/Stockholm
+    volumes:
+      - /home/jhn/Docker/containers/Plex-image-cleanup/config:/config
+      - /home/jhn/Docker/containers/Plex/config/Library/Application Support/Plex Media Server:/plex
+    restart: unless-stopped

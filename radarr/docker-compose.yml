@@ -1,0 +1,19 @@
+---
+version: "2.1"
+services:
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+    volumes:
+      - ./config:/config
+      - /mnt/RED10_Movies1/Media/Movies1:/movies1
+      - /mnt/RED10_Movies2/Media/Movies2:/movies2
+      - /mnt/EXOS16_Movies3/Media/Movies3:/movies3
+      - /home/jhn/Downloads:/downloads
+    ports:
+      - 7878:7878
+    restart: unless-stopped

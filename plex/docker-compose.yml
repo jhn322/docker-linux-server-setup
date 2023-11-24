@@ -1,0 +1,36 @@
+version: '3.8'
+services:
+  plex:
+    container_name: plex
+    image: lscr.io/linuxserver/plex
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - TZ=Europe/Stockholm
+      - PUID=1000
+      - PGID=1000
+      - VERSION=latest
+      - PLEX_CLAIM=your-token
+    volumes:
+      - ./config:/config
+      - /home/jhn/Media Addons/Audiobooks:/audiobooks
+      - /home/jhn/Media Addons/Videos:/videos
+      - /home/jhn/Media Addons/Music:/flacmusic
+      - /home/jhn/Media Addons/Soundtracks:/flacsoundtrack
+      - /mnt/RED10_Movies1/Media/Movies1:/movies1
+      - /mnt/RED10_Movies2/Media/Movies2:/movies2
+      - /mnt/EXOS16_Movies3/Media/Movies3:/movies3
+      - /mnt/EXOS18_Anime1/Media/Anime1:/anime1
+      - /mnt/EXOS18_Anime2/Media/Anime2:/anime2
+      - /mnt/EXOS16_TV1/Media/TV1:/TV1
+      - /mnt/EXOS20_TV2/Media/TV2:/TV2
+      - /mnt/RED06_Remux/Media/Remux:/remux-movies
+    tmpfs:
+      - /transcode
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]

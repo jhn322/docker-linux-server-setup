@@ -1,0 +1,17 @@
+---
+version: "2.1"
+services:
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr-remux
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Stockholm
+    volumes:
+      - ./config:/config
+      - /mnt/RED06_Remux/Media/Remux:/remux-movies
+      - /home/jhn/Downloads:/downloads
+    ports:
+      - 7879:7878
+    restart: unless-stopped

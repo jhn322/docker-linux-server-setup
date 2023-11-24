@@ -1,0 +1,11 @@
+version: "3"
+services:
+  plexautolanguages:
+    image: remirigal/plex-auto-languages:latest
+    container_name: plex-auto-languages
+    environment:
+      - TZ=Europe/Stockholm
+    volumes:
+      # make sure you have a file named 'config.yaml' in the 'config' dir
+      - ./config:/config
+    restart: unless-stopped
