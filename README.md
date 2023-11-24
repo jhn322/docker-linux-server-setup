@@ -8,6 +8,19 @@ Where I pull most of my containers: https://github.com/linuxserver
 ## OS & Hardware
 Linux Ubuntu 22.04 LTS
 
+Define 7
+
+Ryzen 2700x
+
+32GB DDR4 
+
+GTX 980Ti
+
+Asus X570-F
+
+8x SATA Card
+
+### Storage
 2TB 980 Pro
 
 500GB 970 Evo
