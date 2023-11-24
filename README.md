@@ -5,8 +5,16 @@ More information: https://hub.docker.com/
 
 Where I pull most of my containers: https://github.com/linuxserver
 
-## OS
+## OS & Hardware
 Linux Ubuntu 22.04 LTS
+EXOS 20TB
+EXOS 18TB
+EXOS 16TB
+EXOS 16TB
+WD Red 10TB
+WD Red 10TB
+
+
 
 ## Containers
 1. 1
