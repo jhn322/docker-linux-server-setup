@@ -34,7 +34,7 @@ Where I pull most of my containers: https://github.com/linuxserver
 | OS = 2TB | Total = 116.5TB |
 
 
-## Containers
+## Containers & stacks
 1. bazarr
 2. bazarr-remux
 3. dozzle
