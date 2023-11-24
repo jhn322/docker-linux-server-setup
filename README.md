@@ -7,14 +7,22 @@ Where I pull most of my containers: https://github.com/linuxserver
 
 ## OS & Hardware
 Linux Ubuntu 22.04 LTS
+
+2TB 980 Pro
+
+500GB 970 Evo
+
 EXOS 20TB
-EXOS 18TB
-EXOS 16TB
-EXOS 16TB
-WD Red 10TB
-WD Red 10TB
 
+EXOS 18TB x2
 
+EXOS 16TB x2
+
+WD Red 10TB x2
+
+WD Red 6TB
+
+Total storage = 116.5TB
 
 ## Containers
 1. 1
