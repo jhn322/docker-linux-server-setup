@@ -6,65 +6,59 @@ More information: https://hub.docker.com/
 Where I pull most of my containers: https://github.com/linuxserver
 
 ## OS & Hardware
-Linux Ubuntu 22.04 LTS
 
-Define 7
-
-Ryzen 2700x
-
-32GB DDR4 
-
-GTX 980Ti
-
-Asus X570-F
-
-8x SATA Card
+| Specifications  |Model | 
+| ------------- |:-------------:| 
+| OS     | Ubuntu 22.04 LTS | 
+| Case     | Define 7 | 
+| CPU      | Ryzen 2700x | 
+| RAM | 32GB DDR4 | 
+| Motherboard | Asus X570-F | 
+| Graphics Card | GTX 980Ti | 
+| Addon | 8x SATA Card |  
 
 ### Storage
-2TB 980 Pro
 
-500GB 970 Evo
+| Storage  | Type |
+| ------------- |:-------------:|
+| 20TB | EXOS HDD | 
+| 18TB | EXOS HDD | 
+| 18TB | EXOS HDD | 
+| 16TB | EXOS HDD | 
+| 16TB | EXOS HDD | 
+| 10TB | RED HDD | 
+| 10TB | RED HDD |  
+| 6TB | RED HDD | 
+| 2TB | 4.0 NVMe SDD | 
+| 500GB | 3.0 NVMe SDD |
+| OS = 2TB | Total = 116.5TB |
 
-EXOS 20TB
-
-EXOS 18TB x2
-
-EXOS 16TB x2
-
-WD Red 10TB x2
-
-WD Red 6TB
-
-Total storage = 116.5TB
 
 ## Containers
-1. 1
-2. 2
-3. 3
-4. 4
-5. 5
-6. 6
-7. 7
-8. 8
-9. 9
-10. 10
-11. 11
-12. 12
-13. 13
-14. 14
-15. 15
-16. 16
-17. 17
-18. 18
-19. 19
-20. 2
-21. 3
-22. 4
-23. 5
-24. 6
-25. 7
-26. 8
-27. 89
-28. 3
-29. 5
-30. 5
+1. bazarr
+2. bazarr-remux
+3. dozzle
+4. jellyfin
+5. jellyseerr
+6. lidarr
+7. organizr
+8. overseerr
+9. plex
+10. plex-auto-languages
+11. plex-image-cleanup
+12. plex-meta-manager-collections
+13. plex-meta-manager-operations
+14. plex-meta-manager-overlays
+15. plextraktsync
+16. portainer
+17. prowlarr
+18. qbittorrent
+19. radarr
+20. radarr-remux
+21. readarr
+22. scheduler
+23. sonarr
+24. tautulli
+25. tdarr
+26. tdarr-node
+27. watchtower
