@@ -35,30 +35,30 @@ Where I pull most of my containers: https://github.com/linuxserver
 
 
 ## Containers & stacks
-1. bazarr
-2. bazarr-remux
-3. dozzle
-4. jellyfin
-5. jellyseerr
-6. lidarr
-7. organizr
-8. overseerr
-9. plex
-10. plex-auto-languages
-11. plex-image-cleanup
-12. plex-meta-manager-collections
-13. plex-meta-manager-operations
-14. plex-meta-manager-overlays
-15. plextraktsync
-16. portainer
-17. prowlarr
-18. qbittorrent
-19. radarr
-20. radarr-remux
-21. readarr
-22. scheduler
-23. sonarr
-24. tautulli
-25. tdarr
-26. tdarr-node
-27. watchtower
+1. bazarr https://github.com/morpheus65535/bazarr
+2. bazarr-remux https://github.com/morpheus65535/bazarr
+3. dozzle https://github.com/morpheus65535/bazarr
+4. jellyfin https://github.com/jellyfin/jellyfin
+5. jellyseerr https://github.com/Fallenbagel/jellyseerr
+6. lidarr https://github.com/Lidarr/Lidarr
+7. organizr https://github.com/causefx/Organizr
+8. overseerr https://github.com/sct/overseerr
+9. plex https://github.com/linuxserver/docker-plex
+10. plex-auto-languages https://github.com/RemiRigal/Plex-Auto-Languages
+11. plex-image-cleanup https://github.com/meisnate12/Plex-Image-Cleanup/tree/master
+12. plex-meta-manager-collections https://github.com/meisnate12/Plex-Meta-Manager
+13. plex-meta-manager-operations https://github.com/meisnate12/Plex-Meta-Manager
+14. plex-meta-manager-overlays https://github.com/meisnate12/Plex-Meta-Manager
+15. plextraktsync https://github.com/Taxel/PlexTraktSync
+16. portainer https://github.com/portainer/portainer
+17. prowlarr https://github.com/Prowlarr/Prowlarr
+18. qbittorrent https://github.com/qbittorrent/qBittorrent
+19. radarr https://github.com/Radarr/Radarr
+20. radarr-remux https://github.com/Radarr/Radarr
+21. readarr https://github.com/Readarr/Readarr
+22. scheduler https://github.com/Taxel/PlexTraktSync
+23. sonarr https://github.com/Sonarr/Sonarr
+24. tautulli https://github.com/Tautulli/Tautulli
+25. tdarr https://github.com/HaveAGitGat/Tdarr
+26. tdarr-node https://github.com/HaveAGitGat/Tdarr
+27. watchtower https://github.com/containrrr/watchtower
