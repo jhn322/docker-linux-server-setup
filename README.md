@@ -34,7 +34,7 @@ Where I pull most of my containers: https://github.com/linuxserver
 | 6TB | RED HDD | 
 | 2TB | 4.0 NVMe SDD | 
 | 500GB | 3.0 NVMe SDD |
-| OS = 2TB | Total = 116.5TB |
+| OS = 2TB | Total ≈ 116.5TB |
 
 
 ## Containers & stacks
